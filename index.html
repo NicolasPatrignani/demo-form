@@ -22,7 +22,13 @@
           <ul>
             <li>
               <label for="username">Your name</label>
-              <input type="text" name="user-name" id="username" required />
+              <input
+                type="text"
+                name="user-name"
+                id="username"
+                required
+                placeholder="Your name"
+              />
             </li>
             <li>
               <label for="useremail">Your email address</label>
@@ -80,7 +86,7 @@
 
         <section>
           <label for="usermessage">Your message</label>
-          <textarea name="user-message" id="usermessage"></textarea>
+          <textarea name="user-message" id="usermessage" rows="8"></textarea>
         </section>
 
         <section>
@@ -92,6 +98,7 @@
                 name="verify"
                 id="verify-text-message"
                 value="text-message"
+                required
               />
               <label for="verify-text-message">Via text message (SMS)</label>
             </li>
@@ -101,6 +108,7 @@
                 name="verify"
                 id="verify-phone"
                 value="phone"
+                required
               />
               <label for="verify-phone">Via a phone call</label>
             </li>
@@ -110,6 +118,7 @@
                 name="verify"
                 id="verify-email"
                 value="email"
+                required
               />
               <label for="verify-email">Via an email</label>
             </li>
